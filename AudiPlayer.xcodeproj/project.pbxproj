@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		956EA9FB2055B7D600CE3C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EA9FA2055B7D600CE3C47 /* AppDelegate.swift */; };
+		956EA9FD2055B7D600CE3C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EA9FC2055B7D600CE3C47 /* ViewController.swift */; };
+		956EAA002055B7D600CE3C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956EA9FE2055B7D600CE3C47 /* Main.storyboard */; };
+		956EAA032055B7D600CE3C47 /* AudiPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 956EAA012055B7D600CE3C47 /* AudiPlayer.xcdatamodeld */; };
+		956EAA052055B7D600CE3C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956EAA042055B7D600CE3C47 /* Assets.xcassets */; };
+		956EAA082055B7D600CE3C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956EAA062055B7D600CE3C47 /* LaunchScreen.storyboard */; };
+		956EAA132055B7D700CE3C47 /* AudiPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EAA122055B7D700CE3C47 /* AudiPlayerTests.swift */; };
+		956EAA1E2055B7D700CE3C47 /* AudiPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EAA1D2055B7D700CE3C47 /* AudiPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		956EAA0F2055B7D700CE3C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956EA9EF2055B7D600CE3C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956EA9F62055B7D600CE3C47;
+			remoteInfo = AudiPlayer;
+		};
+		956EAA1A2055B7D700CE3C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956EA9EF2055B7D600CE3C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956EA9F62055B7D600CE3C47;
+			remoteInfo = AudiPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		956EA9F72055B7D600CE3C47 /* AudiPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		956EA9FA2055B7D600CE3C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		956EA9FC2055B7D600CE3C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		956EA9FF2055B7D600CE3C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		956EAA022055B7D600CE3C47 /* AudiPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudiPlayer.xcdatamodel; sourceTree = "<group>"; };
+		956EAA042055B7D600CE3C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956EAA072055B7D600CE3C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		956EAA092055B7D600CE3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956EAA0E2055B7D700CE3C47 /* AudiPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		956EAA122055B7D700CE3C47 /* AudiPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiPlayerTests.swift; sourceTree = "<group>"; };
+		956EAA142055B7D700CE3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956EAA192055B7D700CE3C47 /* AudiPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		956EAA1D2055B7D700CE3C47 /* AudiPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiPlayerUITests.swift; sourceTree = "<group>"; };
+		956EAA1F2055B7D700CE3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956EA9F42055B7D600CE3C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956EAA0B2055B7D700CE3C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956EAA162055B7D700CE3C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956EA9EE2055B7D600CE3C47 = {
+			isa = PBXGroup;
+			children = (
+				956EA9F92055B7D600CE3C47 /* AudiPlayer */,
+				956EAA112055B7D700CE3C47 /* AudiPlayerTests */,
+				956EAA1C2055B7D700CE3C47 /* AudiPlayerUITests */,
+				956EA9F82055B7D600CE3C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		956EA9F82055B7D600CE3C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				956EA9F72055B7D600CE3C47 /* AudiPlayer.app */,
+				956EAA0E2055B7D700CE3C47 /* AudiPlayerTests.xctest */,
+				956EAA192055B7D700CE3C47 /* AudiPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		956EA9F92055B7D600CE3C47 /* AudiPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				956EA9FA2055B7D600CE3C47 /* AppDelegate.swift */,
+				956EA9FC2055B7D600CE3C47 /* ViewController.swift */,
+				956EA9FE2055B7D600CE3C47 /* Main.storyboard */,
+				956EAA042055B7D600CE3C47 /* Assets.xcassets */,
+				956EAA062055B7D600CE3C47 /* LaunchScreen.storyboard */,
+				956EAA092055B7D600CE3C47 /* Info.plist */,
+				956EAA012055B7D600CE3C47 /* AudiPlayer.xcdatamodeld */,
+			);
+			path = AudiPlayer;
+			sourceTree = "<group>";
+		};
+		956EAA112055B7D700CE3C47 /* AudiPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				956EAA122055B7D700CE3C47 /* AudiPlayerTests.swift */,
+				956EAA142055B7D700CE3C47 /* Info.plist */,
+			);
+			path = AudiPlayerTests;
+			sourceTree = "<group>";
+		};
+		956EAA1C2055B7D700CE3C47 /* AudiPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				956EAA1D2055B7D700CE3C47 /* AudiPlayerUITests.swift */,
+				956EAA1F2055B7D700CE3C47 /* Info.plist */,
+			);
+			path = AudiPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956EA9F62055B7D600CE3C47 /* AudiPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956EAA222055B7D700CE3C47 /* Build configuration list for PBXNativeTarget "AudiPlayer" */;
+			buildPhases = (
+				956EA9F32055B7D600CE3C47 /* Sources */,
+				956EA9F42055B7D600CE3C47 /* Frameworks */,
+				956EA9F52055B7D600CE3C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudiPlayer;
+			productName = AudiPlayer;
+			productReference = 956EA9F72055B7D600CE3C47 /* AudiPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		956EAA0D2055B7D700CE3C47 /* AudiPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956EAA252055B7D700CE3C47 /* Build configuration list for PBXNativeTarget "AudiPlayerTests" */;
+			buildPhases = (
+				956EAA0A2055B7D700CE3C47 /* Sources */,
+				956EAA0B2055B7D700CE3C47 /* Frameworks */,
+				956EAA0C2055B7D700CE3C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956EAA102055B7D700CE3C47 /* PBXTargetDependency */,
+			);
+			name = AudiPlayerTests;
+			productName = AudiPlayerTests;
+			productReference = 956EAA0E2055B7D700CE3C47 /* AudiPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		956EAA182055B7D700CE3C47 /* AudiPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956EAA282055B7D700CE3C47 /* Build configuration list for PBXNativeTarget "AudiPlayerUITests" */;
+			buildPhases = (
+				956EAA152055B7D700CE3C47 /* Sources */,
+				956EAA162055B7D700CE3C47 /* Frameworks */,
+				956EAA172055B7D700CE3C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956EAA1B2055B7D700CE3C47 /* PBXTargetDependency */,
+			);
+			name = AudiPlayerUITests;
+			productName = AudiPlayerUITests;
+			productReference = 956EAA192055B7D700CE3C47 /* AudiPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956EA9EF2055B7D600CE3C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Christian Liefeldt";
+				TargetAttributes = {
+					956EA9F62055B7D600CE3C47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					956EAA0D2055B7D700CE3C47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 956EA9F62055B7D600CE3C47;
+					};
+					956EAA182055B7D700CE3C47 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 956EA9F62055B7D600CE3C47;
+					};
+				};
+			};
+			buildConfigurationList = 956EA9F22055B7D600CE3C47 /* Build configuration list for PBXProject "AudiPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956EA9EE2055B7D600CE3C47;
+			productRefGroup = 956EA9F82055B7D600CE3C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				956EA9F62055B7D600CE3C47 /* AudiPlayer */,
+				956EAA0D2055B7D700CE3C47 /* AudiPlayerTests */,
+				956EAA182055B7D700CE3C47 /* AudiPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956EA9F52055B7D600CE3C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956EAA082055B7D600CE3C47 /* LaunchScreen.storyboard in Resources */,
+				956EAA052055B7D600CE3C47 /* Assets.xcassets in Resources */,
+				956EAA002055B7D600CE3C47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956EAA0C2055B7D700CE3C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956EAA172055B7D700CE3C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956EA9F32055B7D600CE3C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956EAA032055B7D600CE3C47 /* AudiPlayer.xcdatamodeld in Sources */,
+				956EA9FD2055B7D600CE3C47 /* ViewController.swift in Sources */,
+				956EA9FB2055B7D600CE3C47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956EAA0A2055B7D700CE3C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956EAA132055B7D700CE3C47 /* AudiPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956EAA152055B7D700CE3C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956EAA1E2055B7D700CE3C47 /* AudiPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		956EAA102055B7D700CE3C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 956EA9F62055B7D600CE3C47 /* AudiPlayer */;
+			targetProxy = 956EAA0F2055B7D700CE3C47 /* PBXContainerItemProxy */;
+		};
+		956EAA1B2055B7D700CE3C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 956EA9F62055B7D600CE3C47 /* AudiPlayer */;
+			targetProxy = 956EAA1A2055B7D700CE3C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		956EA9FE2055B7D600CE3C47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956EA9FF2055B7D600CE3C47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		956EAA062055B7D600CE3C47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956EAA072055B7D600CE3C47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		956EAA202055B7D700CE3C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		956EAA212055B7D700CE3C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		956EAA232055B7D700CE3C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6EBSG256;
+				INFOPLIST_FILE = AudiPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.AudiPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		956EAA242055B7D700CE3C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6EBSG256;
+				INFOPLIST_FILE = AudiPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.AudiPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		956EAA262055B7D700CE3C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6EBSG256;
+				INFOPLIST_FILE = AudiPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.AudiPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudiPlayer.app/AudiPlayer";
+			};
+			name = Debug;
+		};
+		956EAA272055B7D700CE3C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6EBSG256;
+				INFOPLIST_FILE = AudiPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.AudiPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudiPlayer.app/AudiPlayer";
+			};
+			name = Release;
+		};
+		956EAA292055B7D700CE3C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6EBSG256;
+				INFOPLIST_FILE = AudiPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.AudiPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudiPlayer;
+			};
+			name = Debug;
+		};
+		956EAA2A2055B7D700CE3C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6EBSG256;
+				INFOPLIST_FILE = AudiPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.AudiPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudiPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956EA9F22055B7D600CE3C47 /* Build configuration list for PBXProject "AudiPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956EAA202055B7D700CE3C47 /* Debug */,
+				956EAA212055B7D700CE3C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956EAA222055B7D700CE3C47 /* Build configuration list for PBXNativeTarget "AudiPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956EAA232055B7D700CE3C47 /* Debug */,
+				956EAA242055B7D700CE3C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956EAA252055B7D700CE3C47 /* Build configuration list for PBXNativeTarget "AudiPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956EAA262055B7D700CE3C47 /* Debug */,
+				956EAA272055B7D700CE3C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956EAA282055B7D700CE3C47 /* Build configuration list for PBXNativeTarget "AudiPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956EAA292055B7D700CE3C47 /* Debug */,
+				956EAA2A2055B7D700CE3C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		956EAA012055B7D600CE3C47 /* AudiPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				956EAA022055B7D600CE3C47 /* AudiPlayer.xcdatamodel */,
+			);
+			currentVersion = 956EAA022055B7D600CE3C47 /* AudiPlayer.xcdatamodel */;
+			path = AudiPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 956EA9EF2055B7D600CE3C47 /* Project object */;
+}
