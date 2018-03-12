@@ -15,6 +15,7 @@
 		956EAA082055B7D600CE3C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956EAA062055B7D600CE3C47 /* LaunchScreen.storyboard */; };
 		956EAA132055B7D700CE3C47 /* AudiPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EAA122055B7D700CE3C47 /* AudiPlayerTests.swift */; };
 		956EAA1E2055B7D700CE3C47 /* AudiPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EAA1D2055B7D700CE3C47 /* AudiPlayerUITests.swift */; };
+		956EAA2C2055B97E00CE3C47 /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 956EAA2B2055B97E00CE3C47 /* bach.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		956EAA192055B7D700CE3C47 /* AudiPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		956EAA1D2055B7D700CE3C47 /* AudiPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiPlayerUITests.swift; sourceTree = "<group>"; };
 		956EAA1F2055B7D700CE3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956EAA2B2055B97E00CE3C47 /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		956EA9F92055B7D600CE3C47 /* AudiPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				956EAA2B2055B97E00CE3C47 /* bach.mp3 */,
 				956EA9FA2055B7D600CE3C47 /* AppDelegate.swift */,
 				956EA9FC2055B7D600CE3C47 /* ViewController.swift */,
 				956EA9FE2055B7D600CE3C47 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956EAA2C2055B97E00CE3C47 /* bach.mp3 in Resources */,
 				956EAA082055B7D600CE3C47 /* LaunchScreen.storyboard in Resources */,
 				956EAA052055B7D600CE3C47 /* Assets.xcassets in Resources */,
 				956EAA002055B7D600CE3C47 /* Main.storyboard in Resources */,
